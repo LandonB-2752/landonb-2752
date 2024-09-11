@@ -1,0 +1,29 @@
+body {
+    background: #71FA8A;
+    /*background-image: url('https://media0.giphy.com/media/s1iF2QudmlgXIWMQf4/200w.gif?cid=6c09b95208nium19xnekga7excaoyk3gu4smnb7y4bv88oxh&ep=v1_gifs_search&rid=200w.gif&ct=g');
+    */margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: medium;
+    color: black;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+
+h1{
+    color: #011a2a;
+    width: 60%;
+    
+}
+
+#italic{
+    text-decoration:dotted
+}
+
+.center{
+    text-align: center;
+    color: rgb(117, 9, 9);
+}
+
+#para1{
+    color: black;
+}
