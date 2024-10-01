@@ -27,3 +27,18 @@ h1{
 #para1{
     color: black;
 }
+
+.projects{ 
+    display:flex; 
+    flex-wrap:wrap;
+}
+
+.project{
+width: 50%;
+margin: 10px;
+padding: 40px 30px;
+background: rgb(75, 214, 140);
+border-radius: 25%;
+text-align: center;
+image-rendering: ;
+}
