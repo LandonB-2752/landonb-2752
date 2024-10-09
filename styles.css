@@ -41,3 +41,12 @@ background: rgb(75, 214, 140);
 border-radius: 25%;
 text-align: center;
 }
+
+.project img{
+width: 300px;
+height: 300px;
+margin: 10px;
+border: 2px solid rgb(126, 14, 201); /* choose a color */
+display: block;
+margin: auto;
+}
