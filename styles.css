@@ -34,19 +34,39 @@ h1{
 }
 
 .project{
-width: 50%;
-margin: 10px;
-padding: 40px 30px;
-background: rgb(75, 214, 140);
-border-radius: 25%;
-text-align: center;
+    width: 50%;
+    margin: 10px;
+    padding: 40px 30px;
+    background: rgb(75, 214, 140);
+    border-radius: 25%;
+    text-align: center;
 }
 
 .project img{
-width: 300px;
-height: 300px;
-margin: 10px;
-border: 2px solid rgb(126, 14, 201); /* choose a color */
-display: block;
-margin: auto;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    border: 2px solid rgb(126, 14, 201); /* choose a color */
+    display: block;
+    margin: auto;
+}
+
+.about{
+    display:flex;
+    flex-wrap:wrap;
+    margin-right: 100px;
+    margin-left: 100px;
+    justify-content: center;
+}
+.about p {
+    width:50%;
+    text-align: center;
+    margin: auto;
+    line-height: 125%;
+}
+.about img {
+    width: 150px;
+    height: 200px;
+    border-radius: 25%;
+    border: 2px solid rgb(126, 14, 201);
 }
