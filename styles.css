@@ -1,7 +1,6 @@
 body {
     background: #71FA8A;
-    /*background-image: url('https://media0.giphy.com/media/s1iF2QudmlgXIWMQf4/200w.gif?cid=6c09b95208nium19xnekga7excaoyk3gu4smnb7y4bv88oxh&ep=v1_gifs_search&rid=200w.gif&ct=g');
-    */margin: 0;
+    margin: 0;
     font-family:Arial, Helvetica, sans-serif;
     font-size: medium;
     color: black;
@@ -33,7 +32,7 @@ h1{
 }
 
 .project{
-    width: 50%;
+    width: 75%;
     margin: 10px;
     padding: 40px 30px;
     background: #4bd68c;
@@ -42,8 +41,9 @@ h1{
 }
 
 .project img{
-    width: 300px;
-    height: 300px;
+    max-width: 300px;
+    max-height: 300px;
+    flex: 33.3%;
     margin: 10px;
     border: 2px solid #4bd68c;
     display: block;
@@ -51,28 +51,58 @@ h1{
 }
 
 .project iframe{
-    width: 420px;
-    height: 315px;
+    max-width: 1000px;
+    max-height: 1000px;
     border: 5px solid rgb(218, 12, 53);
     border-radius: 5%;
 }
 
+.project hr{
+    height: 1px;
+    background-color: #063d4a;
+    color:#063d4a;
+    margin: 5%;
+}
+
 .about{
-    display:flex;
+    display: flex;
     flex-wrap:wrap;
     margin-right: 100px;
     margin-left: 100px;
     justify-content: center;
 }
+
 .about p {
     width:50%;
     text-align: center;
     margin: auto;
     line-height: 125%;
 }
+
 .about img {
-    width: 170px;
-    height: 200px;
+    max-width: 170px;
+    max-height: 200px;
     border-radius: 10%;
     border: 5px solid #4bd68c;
+}
+
+a:hover{
+    text-transform: uppercase;
+    color: rgb(166, 27, 221);
+}
+
+img:hover{
+    border-color: #063d4a;
+    background-color: #063d4a;
+    border-radius: 5%;
+    border-width: 8px;
+}
+
+.row {
+    display: flex;
+}
+  
+.column {
+    flex: 33.3%;
+    padding: 10px;
 }
